@@ -1,19 +1,4 @@
 let res = document.getElementById("result");
-let val7 = document.getElementById("val7");
-val7.onclick = () => {
-  if (res.innerHTML == "Calculating...") res.innerHTML = "7";
-  else res.innerHTML += "7";
-};
-let val8 = document.getElementById("val8");
-val8.onclick = () => {
-  if (res.innerHTML == "Calculating...") res.innerHTML = "8";
-  else res.innerHTML += "8";
-};
-let val9 = document.getElementById("val9");
-val9.onclick = () => {
-  if (res.innerHTML == "Calculating...") res.innerHTML = "9";
-  else res.innerHTML += "9";
-};
 let val0 = document.getElementById("val0");
 val0.onclick = () => {
   if (res.innerHTML == "Calculating...") res.innerHTML = "0";
@@ -53,6 +38,21 @@ let val6 = document.getElementById("val6");
 val6.onclick = () => {
   if (res.innerHTML == "Calculating...") res.innerHTML = "6";
   else res.innerHTML += "6";
+};
+let val7 = document.getElementById("val7");
+val7.onclick = () => {
+  if (res.innerHTML == "Calculating...") res.innerHTML = "7";
+  else res.innerHTML += "7";
+};
+let val8 = document.getElementById("val8");
+val8.onclick = () => {
+  if (res.innerHTML == "Calculating...") res.innerHTML = "8";
+  else res.innerHTML += "8";
+};
+let val9 = document.getElementById("val9");
+val9.onclick = () => {
+  if (res.innerHTML == "Calculating...") res.innerHTML = "9";
+  else res.innerHTML += "9";
 };
 let add = document.getElementById("add");
 add.onclick = () => {
