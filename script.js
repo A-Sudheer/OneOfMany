@@ -16,8 +16,8 @@ val9.onclick = () => {
 };
 let val0 = document.getElementById("val0");
 val0.onclick = () => {
-  if (res.innerHTML == "Calculating...") res.innerHTML = "7";
-  else res.innerHTML += "7";
+  if (res.innerHTML == "Calculating...") res.innerHTML = "0";
+  else res.innerHTML += "0";
 };
 let val00 = document.getElementById("val00");
 val00.onclick = () => {
