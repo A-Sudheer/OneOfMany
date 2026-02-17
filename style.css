@@ -51,6 +51,7 @@ button {
   border-radius: 30%;
   width: 19%;
   height: 10vh;
+  font-size: 25px;
   background-color: black;
   color: white;
   cursor: grab;
