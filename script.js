@@ -1,4 +1,4 @@
-let res = document.getElementById("result");
+const res = document.getElementById("result");
 const con = document.querySelector(".container");
 con.onclick = (e) => {
   if (e.target.className != "container") {
@@ -14,4 +14,3 @@ con.onclick = (e) => {
     res.innerHTML += e.target.value;
   }
 };
-document.getElementById("clear").onclick = () => (res.innerHTML = "");
